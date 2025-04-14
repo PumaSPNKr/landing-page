@@ -1,3 +1,31 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     color: green;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;  
+    flex: 1 1 auto;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.body-two {
+    background-color: #e5e7eb;
+    color: #172937;
+}
+
+.header, .body-one, .body-two {
+    height:400px;
+}
+
+.body-three {
+    height:280px;
+}
+
+.footer {
+    height: 80px;
 }
