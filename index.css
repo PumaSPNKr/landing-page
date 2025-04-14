@@ -27,5 +27,10 @@ body {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
