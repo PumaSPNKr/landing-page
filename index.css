@@ -1,3 +1,7 @@
+/* div {
+    border: 4px red solid;
+} */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: green;
@@ -6,21 +10,46 @@ body {
 .page {
     display: flex;
     flex-direction: column;  
-  
+    margin: 0;
 }
 
 .header, .footer {
     background-color: #1F2937;
 }
 
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 32px;
+    a {
+        color: white;
+        text-decoration: none;
+        margin-right: 40px;
+    }
+}
+
+.header-bottom {
+    display: flex;
+    margin: 100px 200px 60px 200px;
+}
+
+.header-image {
+    margin: 20px;
+}
+
+
+
 .body-two {
     background-color: #e5e7eb;
     color: #172937;
 }
 
-.header, .body-one, .body-two {
-    height:400px;
-}
+
 
 .body-three {
     height:280px;
