@@ -34,6 +34,7 @@ body {
 .header-links {
     display: flex;
     gap: 32px;
+    padding-bottom: 100px;
     a {
         color: white;
         text-decoration: none;
@@ -66,7 +67,7 @@ body {
 }
 
 .sign-up-button {
-    margin-top: 15px;
+    margin-top: 25px;
     padding: 8px;
 }
 
@@ -78,14 +79,15 @@ body {
 }
 
 .body-one {
-  background-image: url("images/foodtruck.jpeg");
-  background-size: 100%;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 0 100px 0;
+    background-image: url("images/foodtruck.jpeg");
+    background-size:cover;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-bottom: 4px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 100px 0;
 }
 
 .body-one-body {
@@ -99,12 +101,12 @@ body {
 
 .body-one-image {
     background-color: rgb(0, 0, 0, .5);
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   max-width: 20%;
-   min-width: 200px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    min-width: 200px;
+    padding: 8px;
 }
 
 .body-one-image img {
@@ -117,6 +119,20 @@ body {
 .body-two {
     background-color: #e5e7eb;
     color: #172937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    .testimonial {
+        width: 50%;
+        font-weight: 100;
+        font-size: 42px;
+        font-style: italic;
+    }
+    .testimonial-name {
+        margin: 0 25% 0 auto;
+        font-weight: 900;
+    }
 }
 
 
