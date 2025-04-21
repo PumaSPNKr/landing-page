@@ -64,6 +64,35 @@ body {
     text-align: center;
 }
 
+.body-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 100px 0;
+}
+
+.body-one-body {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    gap: 18px;
+    margin: 50px;
+}
+
+.body-one-image {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 12px;
+}
+
+.body-one-image img {
+    border-radius: 10%;
+    overflow: hidden;
+    border: 4px rgb(126, 44, 12) solid;
+    margin-bottom: 12px;
+}
+
 .body-two {
     background-color: #e5e7eb;
     color: #172937;
