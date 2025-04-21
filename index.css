@@ -40,6 +40,10 @@ body {
     }
 }
 
+.header-text {
+    text-align: left;
+    font-weight:bold;
+}
 .header-bottom {
     display: flex;
     margin: 100px 200px 60px 200px;
@@ -47,6 +51,11 @@ body {
 
 .header-image {
     margin: 20px;
+}
+
+.sign-up-button {
+    margin-top: 15px;
+    padding: 5px;
 }
 
 
