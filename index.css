@@ -42,23 +42,27 @@ body {
 
 .header-text {
     text-align: left;
-    font-weight:bold;
+    font-weight: bold;
 }
 .header-bottom {
     display: flex;
     margin: 100px 200px 60px 200px;
 }
 
-.header-image {
-    margin: 20px;
+.header-image {  
+    width: 50%;
+    height: auto; 
+    margin: 20px 40px;
 }
 
 .sign-up-button {
     margin-top: 15px;
-    padding: 5px;
+    padding: 8px;
 }
 
-
+.body-one-header {
+    text-align: center;
+}
 
 .body-two {
     background-color: #e5e7eb;
