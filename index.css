@@ -39,11 +39,10 @@ body {
 }
 
 .header-text {
-    max-width: 40%;
+    max-width: 50%;
     flex: 1 1 auto;
     text-align: left;
     font-weight: bold;
-    flex: 1 1 auto;
     h1 {
         font-size: 64px;
     }
