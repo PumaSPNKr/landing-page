@@ -51,9 +51,10 @@ body {
     }    
 }
 .header-bottom {
+    border: 4px red solid;
     display: flex;
     flex-wrap: wrap;
-    margin: 100px 200px 60px 200px;
+    margin: 100px 100px 60px 100px;
 }
 
 .header-image {
